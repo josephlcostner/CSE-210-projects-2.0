@@ -30,7 +30,7 @@ class Program
             string randomPrompt = PromptGenerator.GetRandomPrompt();
             Console.WriteLine(randomPrompt);
             Console.Write("> ");
-            
+            Console.ReadLine();
             }
         else if (choice == "2")
         {
