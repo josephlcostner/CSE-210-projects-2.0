@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 using System.IO;
 using Prompt;
 class Program
@@ -34,8 +35,16 @@ class Program
             }
         else if (choice == "2")
         {
-            Console.Write(">");
-            Console.ReadLine();
+            string Journal = "Journal.txt";
+            string[] lines = System.IO.File.ReadAllLines(Journal);
+
+            foreach (string line in lines)
+                {
+                    string[] parts = line.Split(",");
+
+                    string firstName = parts[0];
+                    string lastName = parts[1];
+                }
         }
         else if (choice == "3")
         {
