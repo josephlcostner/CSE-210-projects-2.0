@@ -5,8 +5,8 @@ class Program
 {
     static void Main(string[] args)
     {
-         Journal journal = new Journal();
-        PromptGenerator promptGenerator = new PromptGenerator();
+         
+        
          string choice = "";
          while (choice != "5")
          {
@@ -30,7 +30,7 @@ class Program
             string randomPrompt = PromptGenerator.GetRandomPrompt();
             Console.WriteLine(randomPrompt);
             Console.Write("> ");
-            DateTime currentLocal = DateTime.Now;
+            
             }
         else if (choice == "2")
         {
