@@ -32,7 +32,7 @@ class Program
             Console.Write("> ");
             DateTime currentLocal = DateTime.Now;
             }
-        else if (number == 2)
+        else if (choice == "2")
         {
             List<string> linesToDisplay = new List<string>
             {
@@ -45,13 +45,13 @@ class Program
                 }
                 Console.ReadLine();
         }
-        else if (number == 3)
+        else if (choice == "3")
         {
             string dataToSave = "";
             File.WriteAllText("Journal.txt", dataToSave);
         
         }
-        else if (number == 4)
+        else if (choice == "4")
         {
             if (File.Exists("Journal.txt"))
                 {
@@ -59,7 +59,7 @@ class Program
                     Console.WriteLine("Loaded:" + loadedData);
                 }
         }
-        else if (number == 5)
+        else if (choice == "5")
         {
             break;
         }
@@ -72,6 +72,3 @@ class Program
 }
      
 
-
-    }
-}
