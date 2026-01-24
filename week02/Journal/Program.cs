@@ -34,16 +34,8 @@ class Program
             }
         else if (choice == "2")
         {
-            List<string> linesToDisplay = new List<string>
-            {
-                
-            };
-            foreach(string line in linesToDisplay)
-                
-                {
-                    Console.WriteLine(line);
-                }
-                Console.ReadLine();
+            Console.Write(">");
+            Console.ReadLine();
         }
         else if (choice == "3")
         {
