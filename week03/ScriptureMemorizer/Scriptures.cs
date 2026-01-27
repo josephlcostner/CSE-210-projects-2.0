@@ -10,4 +10,11 @@ namespace Scriptures
         
     };
     }
+    public static class Scriptures
+    {
+        private static readonly string[] _quotes =
+        {
+            "Proverbs 3: 5-6; Truth in the Lord with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall dirct thy paths."
+        };
+    }
 }
