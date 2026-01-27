@@ -1,5 +1,7 @@
 using System;
+using System.Net.Quic;
 using Scriptures;
+using System.Text.RegularExpressions;
 class Program
 {
     static void Main(string[] args)
@@ -12,6 +14,15 @@ class Program
         {
             string _quotes = File.ReadAllText("Scriptures.cs");
             Console.WriteLine(_quotes);
+        }
+        
+        string userinput = "";
+        while (userinput != "quit")
+        {
+            if (userinput == "")
+            {
+                
+            }
         }
     }
     
