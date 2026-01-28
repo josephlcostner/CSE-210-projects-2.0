@@ -2,6 +2,7 @@ using System;
 using System.Net.Quic;
 using Scriptures;
 using System.Text.RegularExpressions;
+using System.Diagnostics;
 class Program
 {
     static void Main(string[] args)
@@ -21,7 +22,11 @@ class Program
         {
             if (userinput == "")
             {
-                
+               Process.Start("WordHider.cs"); 
+            }
+            else
+            {
+                break;
             }
         }
     }
