@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace WordHider
+class WordHider
 {
     private static Random random = new Random();
 
