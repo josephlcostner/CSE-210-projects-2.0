@@ -3,6 +3,7 @@ using System.Net.Quic;
 using Scriptures;
 using System.Text.RegularExpressions;
 using System.Diagnostics;
+using WordHider;
 class Program
 {
     static void Main(string[] args)
