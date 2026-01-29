@@ -1,17 +1,19 @@
 using System;
 
-class Program
+public class Program
 {
-    static void Main(string[] args)
+  static void Main(string[] args)
+  
     {
         Console.WriteLine("Hello World! This is the YouTubeVideos Project.");
-    }
-    public class Video_1
-    {
-    public void AccessVariable()
-    {
-        Video_1 instanceOfVideo1 = new Video_1();
+         Video instanceOfVideo1 = new Video();
         Console.WriteLine(instanceOfVideo1.VideoTape1);
+        Comment instanceOfComment1 = new Comment();
+        Console.WriteLine(instanceOfComment1.Comment1);
+    
+    
+   
     }
-    }
+     
+    
 }
