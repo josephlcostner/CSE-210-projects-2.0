@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO.Pipes;
 
 
 public class Product
@@ -9,3 +10,7 @@ public class Product
 }
 
 List<Product> products = new List<Product>
+{
+    new Product { Name = "Apples", Price = 6.99}
+    new Product { Name = "Bananas", Price = 5.99}
+}

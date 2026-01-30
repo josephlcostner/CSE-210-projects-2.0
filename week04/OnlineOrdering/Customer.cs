@@ -1,7 +1,10 @@
 using System;
 
-class Customer;
+class Customer
+
 
 {
+    Console.Write("What is your name? ");
+    string Name = Console.ReadLine();
     
 }
