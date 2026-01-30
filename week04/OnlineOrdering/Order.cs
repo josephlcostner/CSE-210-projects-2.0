@@ -1,6 +1,6 @@
 using System;
 
-class Order
+public static class Order
 {
     Console.Write("Enter a product: ");
     
