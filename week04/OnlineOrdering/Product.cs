@@ -4,6 +4,7 @@ using System.IO.Pipes;
 
 
 public class Product
+
 {
     public string Name { get; set; }
     public int Price { get; set; }
@@ -12,5 +13,6 @@ public class Product
 List<Product> products = new List<Product>
 {
     new Product { Name = "Apples", Price = 6.99},
-    new Product { Name = "Bananas", Price = 5.99}
+    new Product { Name = "Bananas", Price = 5.99},
+    new Product ( Name = "Pears", Price = 4.99)
 };
