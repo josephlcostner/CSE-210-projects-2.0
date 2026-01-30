@@ -23,7 +23,8 @@ class Program
         {
             if (userinput == "")
             {
-               Process.Start("WordHider.cs"); 
+               WordHider hider = new WordHider();
+               
             }
             else
             {
