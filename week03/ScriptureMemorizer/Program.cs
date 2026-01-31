@@ -12,17 +12,14 @@ class Program
             string _quote = File.ReadAllText("Scriptures.cs");
         Console.WriteLine(_quote);
         }
-        {
-            string _quotes = File.ReadAllText("Scriptures.cs");
-            Console.WriteLine(_quotes);
-        }
         
-        string userinput = "";
+        
+        string userinput = " ";
         while (userinput != "quit")
         {
-            if (userinput == "")
+            if (userinput == " ")
             {
-               
+               string input = Console.ReadLine();
             }
             else
             {
