@@ -22,8 +22,7 @@ class Program
         {
             if (userinput == "")
             {
-               WordHider hider = new WordHider();
-               Console.WriteLine(hider);
+               
             }
             else
             {
