@@ -3,7 +3,6 @@ using System.Net.Quic;
 using Scriptures;
 using System.Text.RegularExpressions;
 using System.Diagnostics;
-
 class Program
 {
     static void Main(string[] args)
@@ -24,7 +23,7 @@ class Program
             if (userinput == "")
             {
                WordHider hider = new WordHider();
-               
+               Console.WriteLine(hider);
             }
             else
             {

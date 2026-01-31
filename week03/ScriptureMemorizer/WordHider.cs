@@ -6,16 +6,16 @@ class WordHider
 {
     private static Random random = new Random();
 
-    public static string MaskRandomWord(string Scripture)
+    public static string MaskRandomWord(string Scriptures)
     {
-        var wordsAndSeparators = Regex.Matches(Scripture, @"(\w+|[^\w\s]+|\s+)")
+        var wordsAndSeparators = Regex.Matches(Scriptures, @"(\w+|[^\w\s]+|\s+)")
         .Cast<Match>()
         .Select(m => m.Value)
         .ToList();
 
         var words = wordsAndSeparators.Where(s => Regex.IsMatch(s, @"\w+")).ToList();
 
-        if (!words.Any()) return Scripture;
+        if (!words.Any()) return Scriptures;
 
         int randomIndex = random.Next(0, words.Count);
         string wordToHide = words[randomIndex];
