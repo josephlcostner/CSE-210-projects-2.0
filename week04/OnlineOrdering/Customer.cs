@@ -4,7 +4,7 @@ class Customer
 
 
 {
-    private static string Name(string Name)
+    static void Main()
     {
     Console.Write("What is your name? ");
     string UserInput = Console.ReadLine();
