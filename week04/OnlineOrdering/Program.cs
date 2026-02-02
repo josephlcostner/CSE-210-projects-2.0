@@ -1,10 +1,19 @@
 using System;
-using Customer;
+using System.Security.Cryptography.X509Certificates;
+
 class Program
 {
     static void Main(string[] args)
     {
         Console.WriteLine("Hello World! This is the OnlineOrdering Project.");
-        Console.Write();
+        
+            public class Reciept
+            {
+                public void ReadingReciept()
+                {
+                    Customer instance1 = new Customer();
+                    
+                }
+            }
     }
 }
