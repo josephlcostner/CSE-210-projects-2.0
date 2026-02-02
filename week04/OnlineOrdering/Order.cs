@@ -2,6 +2,9 @@ using System;
 
 public static class Order
 {
-    Console.Write("Enter a product: ");
-    
+    static void Main()
+    {
+    Console.Write("Enter a product, either apples or bananas: ");
+    Console.ReadLine();
+    }
 }

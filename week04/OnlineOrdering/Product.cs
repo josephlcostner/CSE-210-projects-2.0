@@ -3,16 +3,9 @@ using System.Collections.Generic;
 using System.IO.Pipes;
 
 
-public class Product
-
+class Product
 {
-    public string Name { get; set; }
-    public int Price { get; set; }
+    List<string> items = new List<string> { "apples", "bananas "};
+    List<int> prices = new List<int> { 6, 4};
 }
 
-List<Product> products = new List<Product>
-{
-    new Product { Name = "Apples", Price = 6.99},
-    new Product { Name = "Bananas", Price = 5.99},
-    new Product ( Name = "Pears", Price = 4.99)
-};

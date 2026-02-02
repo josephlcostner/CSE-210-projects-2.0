@@ -2,9 +2,9 @@ using System;
 
 class Address
 {
-    private static string Address(string address):
+    private static string Location(string address)
     {
     Console.Write("Please type in your address: ");
-    string address = Console.ReadLine();
+    string Location = Console.ReadLine();
     }
 }
