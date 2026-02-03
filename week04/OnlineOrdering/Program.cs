@@ -7,12 +7,13 @@ class Program
     {
         Console.WriteLine("Hello World! This is the OnlineOrdering Project.");
         
-            public class Reciept
+            private class Reciept
             {
                 public void ReadingReciept()
                 {
                     Customer instance1 = new Customer();
                     Address instance2 = new Address();
+                    Product instance3 = new Product();
 
                 }
             }

@@ -4,6 +4,7 @@ class Customer
 
 
 {
+    private class Person;
     static void Main()
     {
     Console.Write("What is your name? ");
