@@ -12,8 +12,10 @@ class Program
                 public void ReadingReciept()
                 {
                     Customer instance1 = new Customer();
-                    
+                    Address instance2 = new Address();
+
                 }
             }
+        
     }
 }
