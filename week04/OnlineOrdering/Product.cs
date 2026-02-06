@@ -8,7 +8,7 @@ using System.Runtime.CompilerServices;
 
 class Product
 {
-    static void Main()
+    static void Main2()
     {
     
     List<string> ListOfProduce = new List<string>();
