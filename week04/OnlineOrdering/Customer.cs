@@ -4,7 +4,7 @@ namespace Customer
 
 
 {
-    class Person;
+    class Person
     {
     public void Identity()
     {
