@@ -7,20 +7,7 @@ class Program
     {
         Console.WriteLine("Hello World! This is the OnlineOrdering Project.");
     }
+    Customer.My
         
-        
-        public class Customer
-    {
-        public string name;
-        public Customer(string userInput)
-        {
-            name = userInput;
-        }
-    
-        
-        }
-    
-    
-        
-    }
+}
 

@@ -1,11 +1,13 @@
 using System;
 
-public static class Order
+namespace Order
 {
-    private class Choice;
-    static void Main()
+     class Choice
+     {
+    public void Items()
     {
     Console.Write("Enter a product, either apples or bananas: ");
     Console.ReadLine();
     }
+     }
 }

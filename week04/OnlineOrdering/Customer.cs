@@ -1,14 +1,16 @@
 using System;
 
-public class Customer
+namespace Customer
 
 
 {
-    private class Person;
-    static void Main3()
+    class Person;
+    {
+    public void Identity()
     {
     Console.Write("What is your name? ");
     string UserInput = Console.ReadLine();
     Console.Write($"{UserInput}");
+    }
     }
 }

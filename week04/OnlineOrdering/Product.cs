@@ -6,9 +6,11 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 
 
-class Product
+namespace Product
 {
-    static void Main2()
+    class Products
+    {
+    public void Main2()
     {
     
     List<string> ListOfProduce = new List<string>();
@@ -41,6 +43,7 @@ class Product
             }
         }
     
+    }
     }
     
 }
