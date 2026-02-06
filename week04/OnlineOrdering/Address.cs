@@ -6,7 +6,7 @@ namespace Address
 {
      class Home
      {
-    public void Main4()
+    public void House()
     {
     Console.Write("Please type in your address: ");
     string Location = Console.ReadLine();

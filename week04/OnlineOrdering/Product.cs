@@ -10,7 +10,7 @@ namespace Product
 {
     class Products
     {
-    public void Main2()
+    public void Food()
     {
     
     List<string> ListOfProduce = new List<string>();
