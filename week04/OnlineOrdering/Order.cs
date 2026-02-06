@@ -6,7 +6,7 @@ namespace Order
      {
     public void Items()
     {
-    Console.Write("Enter a product, either apples or bananas: ");
+    Console.Write("Products: Milk, Apples, Bananas, Bread, Butter.");
     Console.ReadLine();
     }
      }

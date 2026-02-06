@@ -3,6 +3,7 @@ using System.Security.Cryptography.X509Certificates;
 using Product;
 using Customer;
 using Address;
+using Order;
 class Program
 {
     static void Main(string[] args)
@@ -12,6 +13,8 @@ class Program
         customer.Identity();
         Home home = new Home();
         home.House();
+        Choice Choice = new Choice();
+        Choice.Items();
         Products products = new Products();
         products.Food();
     }
