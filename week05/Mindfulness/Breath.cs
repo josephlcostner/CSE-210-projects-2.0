@@ -13,9 +13,6 @@ namespace BreathingExcersise
         
              int countdownTime = 5;
             
-    
-    
-            
             {
         Console.WriteLine("Welcome to the breathing activity.");
         Console.ReadLine();
@@ -24,7 +21,10 @@ namespace BreathingExcersise
 
     while (countdownTime > 0)
                 {
-                
+            Console.Write("+");
+            Thread.Sleep(500);
+            Console.Write("\b \b");
+            Console.Write("-");
             Console.Clear();
             Console.WriteLine("Breath in...");
             Thread.Sleep(5);
