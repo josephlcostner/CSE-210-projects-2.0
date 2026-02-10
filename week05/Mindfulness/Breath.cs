@@ -3,25 +3,38 @@ using System.Timers;
 using static System.Console;
 using System.Threading;
 
-    class Breath
+namespace BreathingExcersise
 {
-    static int countdownTime = 30;
-    private static Count timer;
-    
-    static void Main(string[] args)
+    public class Breath
     {
-        StartCountdown();
+        public void Run()
+        {
+            
+        
+             int countdownTime = 5;
+            
+    
+    
+            
+            {
         Console.WriteLine("Welcome to the breathing activity.");
         Console.ReadLine();
-    }
-    static void StartCountdown()
-    {
-        timer = new Count(1000);
-        
-        timer.AutoReset = true;
-        timer.Enabled = true;
+    
+    
 
-        while ()
+    while (countdownTime > 0)
+                {
+                
+            Console.Clear();
+            Console.WriteLine("Breath in...");
+            Thread.Sleep(5);
+            Console.WriteLine("Breath out...");
+            Thread.Sleep(5);
+                }
+    Console.Clear();
+    Console.WriteLine("Good Job.");
+            }
+        }
     }
-
 }
+

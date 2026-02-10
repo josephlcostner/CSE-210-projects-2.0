@@ -1,4 +1,6 @@
 using System;
+using BreathingExcersise;
+
 
 class Program
 {
@@ -24,6 +26,8 @@ class Program
         switch (Console.ReadLine())
         {
             case "1":
+                Breath breathing = new Breath();
+                breathing.Run();
                 return true;
             case "2":
                 return true;
