@@ -1,5 +1,6 @@
 using System;
 using BreathingExcersise;
+using Choice;
 
 
 class Program
@@ -30,6 +31,8 @@ class Program
                 breathing.Run();
                 return true;
             case "2":
+            RandomPrompts prompts = new RandomPrompts();
+            prompts.Run2();
                 return true;
             case "3":
                 return true;

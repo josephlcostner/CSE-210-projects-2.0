@@ -4,8 +4,22 @@ namespace Choice
 {
     public class RandomPrompts
     {
-        static void Main()
+        public void Run2()
         {
+
+            int countdownTime1 = 30;
+
+
+
+            Console.WriteLine("Welcome to the reflection activity.");
+            Console.ReadLine();
+            while (countdownTime1 > 0)
+                {
+            Console.Write("+");
+            Thread.Sleep(500);
+            Console.Write("\b \b");
+            Console.Write("-");
+            Console.Clear();
             List<string> prompts = new List<string>
             {
                 "Think of a time when you stood up for something else.",
@@ -18,6 +32,28 @@ namespace Choice
             int randomIndex = random.Next(0, prompts.Count);
             string randomPrompt = prompts[randomIndex];
             Console.WriteLine(randomPrompt);
+
+            List<string> prompts2 = new List<string>
+            {
+                "Why was this experience meaningful to you?",
+                "Have you ever done anything like this before?",
+                "How did you get started?",
+                "How did you feel when it was complete?",
+                "What made this time different than other times when you were not as successful?",
+                "What is your favorite thing about this experience?",
+                "What could you learn from this experience that applie3s to other situations?",
+                "What did you learn about yourself through this experience?",
+                "How can you keep this experience in mind in the future?"  
+            };
+            Random random1 = new Random();
+            int randomIndex1 = random1.Next(0, prompts2.Count);
+            string randomPrompt1 = prompts2[randomIndex1];
+            Console.WriteLine(randomPrompt1);
+
+            Console.Write(" ");
+                }
+                Console.Clear();
+                Console.Write("Good Job.");
         }
     }
 }
