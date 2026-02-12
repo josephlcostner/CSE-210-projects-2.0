@@ -13,14 +13,7 @@ namespace Choice
 
             Console.WriteLine("Welcome to the reflection activity.");
             Console.ReadLine();
-            while (countdownTime1 > 0)
-                {
-            Console.Write("+");
-            Thread.Sleep(500);
-            Console.Write("\b \b");
-            Console.Write("-");
-            Console.Clear();
-            List<string> prompts = new List<string>
+                      List<string> prompts = new List<string>
             {
                 "Think of a time when you stood up for something else.",
                 "Think of a time when you did something really difficult.",
@@ -33,7 +26,7 @@ namespace Choice
             string randomPrompt = prompts[randomIndex];
             Console.WriteLine(randomPrompt);
 
-            List<string> prompts2 = new List<string>
+              List<string> prompts2 = new List<string>
             {
                 "Why was this experience meaningful to you?",
                 "Have you ever done anything like this before?",
@@ -49,6 +42,17 @@ namespace Choice
             int randomIndex1 = random1.Next(0, prompts2.Count);
             string randomPrompt1 = prompts2[randomIndex1];
             Console.WriteLine(randomPrompt1);
+            
+            while (countdownTime1 > 0)
+                {
+            Console.Write("+");
+            Thread.Sleep(500);
+            Console.Write("\b \b");
+            Console.Write("-");
+            Console.Clear();
+  
+
+          
 
             Console.Write(" ");
                 }

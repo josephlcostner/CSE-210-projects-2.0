@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 namespace List
 {
     public class ListingActivity
@@ -10,10 +11,6 @@ namespace List
 
             Console.WriteLine("Welcome to the Listing Activity.");
             Console.ReadLine();
-
-            while (countdownTime2 > 0)
-            {
-            
 
             List<string> prompts2 = new List<string>
             {
@@ -27,6 +24,12 @@ namespace List
             int randomIndex = random.Next(0, prompts2.Count);
             string randomPrompt = prompts2[randomIndex];
             Console.WriteLine(randomPrompt);
+
+            while (countdownTime2 > 0)
+            {
+            
+
+            
                  Console.Write("+");
             Thread.Sleep(500);
             Console.Write("\b \b");

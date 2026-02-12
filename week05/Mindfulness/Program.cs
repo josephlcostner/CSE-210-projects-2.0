@@ -30,15 +30,15 @@ class Program
             case "1":
                 Breath breathing = new Breath();
                 breathing.Run();
-                return true;
+                return false;
             case "2":
             RandomPrompts prompts = new RandomPrompts();
             prompts.Run2();
-                return true;
+                return false;
             case "3":
                 ListingActivity list = new ListingActivity();
                 list.Run3();
-                return true;
+                return false;
             case "4":
                 return false;
             default:

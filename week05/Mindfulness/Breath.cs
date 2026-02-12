@@ -5,17 +5,22 @@ using System.Threading;
 
 namespace BreathingExcersise
 {
-    public class Breath
+     class Breath
     {
+        int countdownTime = 5;
+        
         public void Run()
         {
             
-        
-             int countdownTime = 5;
             
             {
         Console.WriteLine("Welcome to the breathing activity.");
+        StartCountdown();
         Console.ReadLine();
+        static void StartCountdown()
+                {
+                    
+                }
     
     
 
