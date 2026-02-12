@@ -1,5 +1,5 @@
 using System;
-
+using System.Collections.Generic;
 namespace List
 {
     public class ListingActivity
@@ -13,11 +13,7 @@ namespace List
 
             while (countdownTime2 > 0)
             {
-                 Console.Write("+");
-            Thread.Sleep(500);
-            Console.Write("\b \b");
-            Console.Write("-");
-            Console.Clear();
+            
 
             List<string> prompts2 = new List<string>
             {
@@ -27,7 +23,39 @@ namespace List
               "When have you felt the Holy Ghost this month?",
               "Who are some of your personal heros?"  
             };
-            }
+            Random random = new Random();
+            int randomIndex = random.Next(0, prompts2.Count);
+            string randomPrompt = prompts2[randomIndex];
+            Console.WriteLine(randomPrompt);
+                 Console.Write("+");
+            Thread.Sleep(500);
+            Console.Write("\b \b");
+            Console.Write("-");
+            Console.Clear();
+
+            List<string> inputsList = new List<string>();
+            string input = "";
+
+            do
+                {
+                    input = Console.ReadLine();
+
+                    if (!string.IsNullOrWhiteSpace(input))
+                    {
+                        inputsList.Add(input);
+                    }
+                }
+                while (!string.IsNullOrWhiteSpace(input));
+
+                while (countdownTime2 == 0)
+                {
+                    foreach (string item in inputsList)
+                    {
+                        Console.WriteLine($"{item}");
+                    }
+                }
+            }  
+            
         }
     }
 }
