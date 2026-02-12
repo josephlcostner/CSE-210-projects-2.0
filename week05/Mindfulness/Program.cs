@@ -40,7 +40,7 @@ class Program
                 list.Run3();
                 return true;
             case "4":
-                break;
+                return false;
             default:
                 return true;
 
