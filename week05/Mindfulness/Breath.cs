@@ -19,7 +19,7 @@ namespace BreathingExcersise
                 {
                     
                 }
-            for (int i = 1; i > 0; i--)
+            for (int i = 5; i > 0; i--)
             {
                  
             
@@ -27,15 +27,19 @@ namespace BreathingExcersise
             Thread.Sleep(5000);
             Console.Write("+");
             Thread.Sleep(500);
-            Console.Write("\b \b");
+            Console.Write("\\");
+            Thread.Sleep(500);
             Console.Write("-");
+            Thread.Sleep(500);
             Console.Clear();
             Console.WriteLine("Breath out...");
             Thread.Sleep(5000);
             Console.Write("+");
             Thread.Sleep(500);
-            Console.Write("\b \b");
+            Console.Write("\\");
+            Thread.Sleep(500);
             Console.Write("-");
+            Thread.Sleep(500);
             Console.Clear();
                 
             }

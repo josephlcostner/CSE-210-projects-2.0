@@ -53,10 +53,15 @@ namespace Choice
                 {
             
             Console.Write(" ");
+            Thread.Sleep(1000);
             Console.Write("+");
             Thread.Sleep(1000);
-            Console.Write("\b \b");
+            Console.Write("\\");
+            Thread.Sleep(1000);
+            Console.Write("|");
+            Thread.Sleep(1000);
             Console.Write("-");
+            Thread.Sleep(1000);
             Console.Clear();
                 }
                 Console.Clear();

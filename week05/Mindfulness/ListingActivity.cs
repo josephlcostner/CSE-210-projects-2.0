@@ -12,6 +12,8 @@ namespace List
             Console.WriteLine("Welcome to the Listing Activity.");
             Console.ReadLine();
 
+
+            
             for (int i = 1; i > 0; i--)
             {
 
@@ -29,21 +31,9 @@ namespace List
             Console.WriteLine(randomPrompt);
             Thread.Sleep(10000);
 
-            
-            {
-            
-
-            
-                 Console.Write("+");
-            Thread.Sleep(500);
-            Console.Write("\b \b");
-            Console.Write("-");
-            Console.Clear();
-
             List<string> inputsList = new List<string>();
             string input = "";
-
-            do
+             do
                 {
                     input = Console.ReadLine();
 
@@ -61,8 +51,26 @@ namespace List
                         Console.WriteLine($"{item}");
                     }
                 }
-            }  
             
+            
+
+            
+                 Console.Write("-");
+            Thread.Sleep(1000);
+            Console.Write("/");
+            Thread.Sleep(1000);
+            Console.Write("|");
+            Thread.Sleep(1000);
+            Console.Write("\\");
+            Thread.Sleep(1000);
+            Console.Write("-");
+            Console.Clear();
+
+            
+            
+           
+            
+            Console.WriteLine("Good Job.");
         }
     }
 }
