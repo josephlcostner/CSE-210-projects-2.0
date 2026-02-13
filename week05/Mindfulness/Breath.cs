@@ -53,7 +53,10 @@ namespace BreathingExcersise
                 {
                     Console.WriteLine("That's a relief!");
                 }
-
+                else
+                {
+                    Console.WriteLine("Error!");
+                }
             
             }
         
