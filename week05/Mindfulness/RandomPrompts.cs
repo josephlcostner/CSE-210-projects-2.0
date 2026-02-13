@@ -7,13 +7,16 @@ namespace Choice
         public void Run2()
         {
 
-            int countdownTime1 = 30;
+            
+            {
 
 
 
             Console.WriteLine("Welcome to the reflection activity.");
             Console.ReadLine();
-                      List<string> prompts = new List<string>
+            for (int i = 1; i > 0; i--)
+            {
+            List<string> prompts = new List<string>
             {
                 "Think of a time when you stood up for something else.",
                 "Think of a time when you did something really difficult.",
@@ -42,23 +45,30 @@ namespace Choice
             int randomIndex1 = random1.Next(0, prompts2.Count);
             string randomPrompt1 = prompts2[randomIndex1];
             Console.WriteLine(randomPrompt1);
+            Thread.Sleep(10000);
+
             
-            while (countdownTime1 > 0)
+            
+           
                 {
+            
+            Console.Write(" ");
             Console.Write("+");
-            Thread.Sleep(500);
+            Thread.Sleep(1000);
             Console.Write("\b \b");
             Console.Write("-");
             Console.Clear();
-  
-
-          
-
-            Console.Write(" ");
                 }
                 Console.Clear();
                 Console.Write("Good Job.");
+            }
+            }
         }
     }
 }
+            
+                
+        
+    
+
 
