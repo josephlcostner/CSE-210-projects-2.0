@@ -80,6 +80,7 @@ namespace List
                 {
                     Console.WriteLine("Error!");
                 }
+                Thread.Sleep(5000);
             Console.Clear();
 
             
