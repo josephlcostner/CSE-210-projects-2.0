@@ -52,15 +52,15 @@ namespace Choice
            
                 {
             
-            Console.Write(" ");
+            Console.Write("5");
             Thread.Sleep(1000);
-            Console.Write("+");
+            Console.Write("4");
             Thread.Sleep(1000);
-            Console.Write("\\");
+            Console.Write("3");
             Thread.Sleep(1000);
-            Console.Write("|");
+            Console.Write("2");
             Thread.Sleep(1000);
-            Console.Write("-");
+            Console.Write("1");
             Thread.Sleep(1000);
             Console.Clear();
                 }
