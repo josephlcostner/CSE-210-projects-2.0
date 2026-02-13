@@ -2,7 +2,7 @@ using System;
 
 namespace Choice
 {
-    public class RandomPrompts
+    public class Reflection
     {
         public void Run2()
         {

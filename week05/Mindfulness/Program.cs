@@ -32,7 +32,7 @@ class Program
                 breathing.Run();
                 return false;
             case "2":
-            RandomPrompts prompts = new RandomPrompts();
+            Reflection prompts = new Reflection();
             prompts.Run2();
                 return false;
             case "3":
