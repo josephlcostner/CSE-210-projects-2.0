@@ -7,10 +7,13 @@ namespace List
     {
         public void Run3()
         {
-            int countdownTime2 = 30;
+            
 
             Console.WriteLine("Welcome to the Listing Activity.");
             Console.ReadLine();
+
+            for (int i = 1; i > 0; i--)
+            {
 
             List<string> prompts2 = new List<string>
             {
@@ -25,7 +28,7 @@ namespace List
             string randomPrompt = prompts2[randomIndex];
             Console.WriteLine(randomPrompt);
 
-            while (countdownTime2 > 0)
+            
             {
             
 
@@ -50,7 +53,7 @@ namespace List
                 }
                 while (!string.IsNullOrWhiteSpace(input));
 
-                while (countdownTime2 == 0)
+                while (i == 0)
                 {
                     foreach (string item in inputsList)
                     {
@@ -61,4 +64,5 @@ namespace List
             
         }
     }
+}
 }
