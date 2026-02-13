@@ -37,7 +37,7 @@ namespace Choice
                 "How did you feel when it was complete?",
                 "What made this time different than other times when you were not as successful?",
                 "What is your favorite thing about this experience?",
-                "What could you learn from this experience that applie3s to other situations?",
+                "What could you learn from this experience that applies to other situations?",
                 "What did you learn about yourself through this experience?",
                 "How can you keep this experience in mind in the future?"  
             };
@@ -62,6 +62,22 @@ namespace Choice
             Thread.Sleep(1000);
             Console.Write("1");
             Thread.Sleep(1000);
+              Console.WriteLine("Do you like butterbeer?");
+            String answerNow = Console.ReadLine();
+
+            if (answerNow == "yes")
+                {
+                    Console.WriteLine("Better be... Griffindor!!!!");
+                } 
+            else if (answerNow == "no")
+                {
+                    Console.WriteLine("Slytherin");
+                }
+                else
+                {
+                    Console.WriteLine("Very difficult...");
+                }
+                Thread.Sleep(5000);
             Console.Clear();
                 }
                 Console.Clear();

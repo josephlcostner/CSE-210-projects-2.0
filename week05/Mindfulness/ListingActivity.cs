@@ -64,6 +64,22 @@ namespace List
             Console.Write("\\");
             Thread.Sleep(1000);
             Console.Write("-");
+
+              Console.WriteLine("Do you like PB & J's?");
+            String answerNow = Console.ReadLine();
+
+            if (answerNow == "yes")
+                {
+                    Console.WriteLine("Welcome to the club, we've been waiting for you!");
+                } 
+            else if (answerNow == "no")
+                {
+                    Console.WriteLine("What is wrong with you!");
+                }
+                else
+                {
+                    Console.WriteLine("Error!");
+                }
             Console.Clear();
 
             
