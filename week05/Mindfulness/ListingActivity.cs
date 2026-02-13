@@ -27,6 +27,7 @@ namespace List
             int randomIndex = random.Next(0, prompts2.Count);
             string randomPrompt = prompts2[randomIndex];
             Console.WriteLine(randomPrompt);
+            Thread.Sleep(10000);
 
             
             {
@@ -53,7 +54,7 @@ namespace List
                 }
                 while (!string.IsNullOrWhiteSpace(input));
 
-                while (i == 0)
+                
                 {
                     foreach (string item in inputsList)
                     {
