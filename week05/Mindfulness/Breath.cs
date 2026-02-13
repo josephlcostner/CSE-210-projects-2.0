@@ -3,6 +3,7 @@ using System.Timers;
 using static System.Console;
 using System.Threading;
 using System.Data;
+using System.Runtime.CompilerServices;
 
 namespace BreathingExcersise
 {
@@ -41,7 +42,19 @@ namespace BreathingExcersise
             Console.Write("-");
             Thread.Sleep(500);
             Console.Clear();
-                
+            Console.WriteLine("Are you dead?!?");
+            String answerNow = Console.ReadLine();
+
+            if (answerNow == "yes")
+                {
+                    Console.WriteLine("Run! It's Frankenstein!!!!!!!!");
+                } 
+            else if (answerNow == "no")
+                {
+                    Console.WriteLine("That's a relief!");
+                }
+
+            
             }
         
         
