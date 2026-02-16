@@ -16,11 +16,11 @@ namespace Water
             Console.Write("How long did you swim for in minutes: ");
             time = Convert.ToInt32(Console.ReadLine());
 
-            int Distance = laps * 50 / 1000;
-            int Speed = (Distance / time) * 60;
-            int Pace = time / Distance;
+             double Distance = (double)laps * 50 / 1000;
+            double Speed = (double)Distance / time * 60;
+            double Pace = (double)time / Distance;
                 
-            Console.Write($"{currentDateTime}, Running({time}, Distance({laps}), Speed({Speed}), Pace({Pace}))");
+            Console.WriteLine($"{currentDateTime}, Running({time}, Distance({laps}), Speed({Speed}), Pace({Pace}))");
         }
     }
 }
